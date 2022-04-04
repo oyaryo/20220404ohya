@@ -6,54 +6,51 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/index.css" />
-    <link rel="stylesheet" href="css/service.css">
-    <link rel="stylesheet" href="css/news.css" />
-    <link rel="stylesheet" href="css/blog.css">
+    <link rel="stylesheet" href="css/blog.css" />
     <title>株式会社TECH</title>
   </head>
   <body>
     <header>
-      <div class="header-fixed">
-        <a href="index.html" class="header-ttl">TECH</a>
+      <a href="index.html" class="header-ttl">TECH</a>
+      <nav class="header-nav">
+        <ul class="header-nav-list">
+          <li class="header-nav-item"><a href="index.html">ホーム</a></li>
+          <li class="header-nav-item"><a href="service.html">事業内容</a></li>
+          <li class="header-nav-item"><a href="news.html">ニュース</a></li>
+          <li class="header-nav-item"><a href="blog.html">社員ブログ</a></li>
+          <li class="header-nav-item"><a href="company.html">会社概要</a></li>
+          <li class="header-nav-item"><a href="recruit.html">採用情報</a></li>
+          <li class="header-nav-item">
+            <a href="contact.html">お問い合わせ</a>
+          </li>
+        </ul>
+      </nav>
 
-        <nav class="header-nav">
-          <ul class="header-nav-list">
-            <li class="header-nav-item"><a href="index.html">ホーム</a></li>
-            <li class="header-nav-item"><a href="service.html">事業内容</a></li>
-            <li class="header-nav-item"><a href="news.html">ニュース</a></li>
-            <li class="header-nav-item"><a href="blog.html">社員ブログ</a></li>
-            <li class="header-nav-item"><a href="company.html">会社概要</a></li>
-            <li class="header-nav-item"><a href="recruit.html">採用情報</a></li>
-            <li class="header-nav-item">
-              <a href="contact.html">お問い合わせ</a>
-            </li>
-          </ul>
-        </nav>
-
-        <div class="humburger-menu" id="humburger-menu">
-          <span class="humburger-menu__line--top"></span>
-          <span class="humburger-menu__line--middle"></span>
-          <span class="humburger-menu__line--bottom"></span>
-        </div>
+      <div class="humburger-menu" id="humburger-menu">
+        <span class="humburger-menu__line--top"></span>
+        <span class="humburger-menu__line--middle"></span>
+        <span class="humburger-menu__line--bottom"></span>
       </div>
+
+      <nav class="drawer-nav" id="drawer-nav">
+        <ul>
+          <li><a href="index.html">ホーム</a></li>
+          <li><a href="service.html">事業内容</a></li>
+          <li><a href="news.html">ニュース</a></li>
+          <li><a href="blog.html">社員ブログ</a></li>
+          <li><a href="company.html">会社概要</a></li>
+          <li><a href="recruit.html">採用情報</a></li>
+          <li><a href="contact.html">お問い合わせ</a></li>
+        </ul>
+      </nav>
     </header>
-    <nav class="drawer-nav" id="drawer-nav">
-      <ul>
-        <li><a href="index.html">ホーム</a></li>
-        <li><a href="service.html">事業内容</a></li>
-        <li><a href="news.html">ニュース</a></li>
-        <li><a href="blog.html">社員ブログ</a></li>
-        <li><a href="company.html">会社概要</a></li>
-        <li><a href="recruit.html">採用情報</a></li>
-        <li><a href="contact.html">お問い合わせ</a></li>
-      </ul>
-    </nav>
-    <section class="serive-firstview">
-      <img src="img/mv.png" alt="" />
-      <h2 class="service-firstview-ttl">社員ブログ</h2>
-    </section>
+
     <main>
-     <section class="blog wrap">
+      <section class="mv">
+        <img src="img/mv.png" alt="" />
+        <h2 class="mv-ttl">社員ブログ</h2>
+      </section>
+      <section class="blog wrap">
         <div class="blog-flex">
           <div class="blog-card">
             <div class="blog-card-img">
@@ -112,23 +109,22 @@
             </div>
             <div class="blog-card-content">
               <p class="blog-card-content-date">2021/01/01</p>
-              <h2 class="blog-card-content-ttl">
-                今年の抱負
-              </h2>
+              <h2 class="blog-card-content-ttl">今年の抱負</h2>
             </div>
           </div>
         </div>
-      </section> 
-      <section class="request">
+      </section>
+      <section class="contact">
         <h2 class="section-ttl">お問い合わせ</h2>
-        <p class="request-content">
+        <p class="contact-text">
           お仕事のご依頼や採用に関してはお問い合わせにて承っております。
         </p>
-        <div class="serviceBtn">
-          <a href="service.html">お問い合わせ</a>
+        <div class="basicBtn">
+          <a href="contact.html">お問い合わせ</a>
         </div>
       </section>
     </main>
+
     <footer>
       <h1 class="footer-ttl">&copy;2020 TECH inc.</h1>
       <nav class="footer-nav">

@@ -1,19 +1,5 @@
-.serive-firstview {
-  position: relative;
-}
-.serive-firstview img {
-  width:100%;
-  height: 200px;
-  object-fit: cover;
-  margin-top: 70px;
-}
-.service-firstview-ttl {
-  position: absolute;
-  color: #fff;
-  top: 60%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
+.service {
+  padding: 50px 0;
 }
 .service-card {
   display: flex;

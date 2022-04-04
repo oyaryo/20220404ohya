@@ -2,9 +2,6 @@ a {
   text-decoration: none;
   color: inherit;
 }
-/* header {
-  position: relative;
-} */
 header {
   display: flex;
   justify-content: space-between;
@@ -54,7 +51,6 @@ header {
   list-style-type: none;
   margin-top: 50px;
 }
-
 
 .firstview {
   position: relative;
@@ -124,18 +120,6 @@ header {
 .service-card-content {
   padding: 15px 30px;
   line-height: 120%;
-}
-.serviceBtn {
-  display: block;
-  padding: 10px 30px;
-  margin: 30px auto 50px;
-  background: red;
-  color: #fff;
-  width: 200px;
-  text-align: center;
-}
-.serviceBtn:hover {
-  opacity: 50%;
 }
 
 .news {
@@ -233,11 +217,11 @@ header {
   opacity: 75%;
 }
 
-.request {
+.contact {
   background: #eee;
   padding: 50px 0;
 }
-.request-content {
+.contact-text {
   text-align: center;
 }
 
@@ -261,6 +245,38 @@ footer {
 }
 .footer-nav-item:last-child {
   border-right: 0;
+}
+
+.basicBtn {
+  display: block;
+  padding: 10px 30px;
+  margin: 30px auto 50px;
+  background: red;
+  color: #fff;
+  width: 200px;
+  text-align: center;
+}
+.basicBtn:hover {
+  opacity: 50%;
+}
+
+.mv {
+  position: relative;
+}
+.mv img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  margin-top: 70px;
+}
+.mv-ttl {
+  position: absolute;
+  color: #fff;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-size: 24px;
 }
 
 @media screen and (max-width: 768px) {
