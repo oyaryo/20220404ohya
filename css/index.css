@@ -2,18 +2,19 @@ a {
   text-decoration: none;
   color: inherit;
 }
-header {
+/* header {
   position: relative;
-}
-.header-fixed {
+} */
+header {
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  height: 70px;
+  /* align-items: center; */
+  /* height: 70px; */
   background-color: #fff;
   position: fixed;
   z-index: 1;
   width: 100%;
+  padding: 24.5px 0;
 }
 .header-ttl {
   font-size: 24px;
@@ -60,6 +61,7 @@ header {
 }
 .firstview-img img {
   width: 100%;
+  margin-top: 70px;
 }
 .firstview-content {
   position: absolute;
@@ -309,7 +311,7 @@ footer {
     transform: translateX(100%);
   }
   .firstview-content-ttl {
-    font-size: 40px;
+    font-size: 35px;
     width: 90%;
   }
 
