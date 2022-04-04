@@ -7,7 +7,9 @@
   display: block;
   font-weight: bold;
 }
-.contact-form input {
+#company-name,
+#user-name,
+#mail-address {
   width: 100%;
 }
 .contact-form textarea {
@@ -23,9 +25,9 @@
   color: red;
 }
 .formBtn {
-  display: inline-block;
-  width: 300px;
+  display: block;
+  width: 200px;
   background-color: #000;
   color: #fff;
-  margin: 25px 0;
+  margin: 25px auto;
 }
