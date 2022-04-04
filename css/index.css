@@ -10,16 +10,14 @@ header {
   justify-content: space-between;
   align-items: center;
   height: 70px;
-  /* margin: 0 30px; */
   background-color: #fff;
   position: fixed;
-  z-index: 5;
+  z-index: 1;
   width: 100%;
 }
 .header-ttl {
   font-size: 24px;
   font-weight: bold;
-  /* width: 80px; */
   margin: 0 30px;
 }
 .header-nav {
@@ -28,10 +26,13 @@ header {
 .header-nav-list {
   display: flex;
   font-weight: bold;
-  /* margin-right: 50px; */
 }
 .header-nav-item:not(:last-child) {
   margin-right: 20px;
+}
+
+.humburger-menu {
+  display: none;
 }
 
 .drawer-nav {
@@ -42,7 +43,7 @@ header {
   background: #fff;
   transition: 0.7s;
   text-align: center;
-  z-index: 3;
+  z-index: 5;
   color: blue;
 }
 .drawer-nav ul {
@@ -52,9 +53,7 @@ header {
   list-style-type: none;
   margin-top: 50px;
 }
-.humburger-menu {
-  display: none;
-}
+
 
 .firstview {
   position: relative;
@@ -268,12 +267,12 @@ footer {
   }
 
   .humburger-menu {
-    display: inline-block;
+    display: block;
     width: 36px;
     height: 32px;
     cursor: pointer;
     position: relative;
-    z-index: 10;
+    z-index: 9;
     margin: 0 30px;
   }
   .humburger-menu__line--top,
