@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/service.css" />
+    <link rel="stylesheet" href="css/news.css" />
+    <link rel="stylesheet" href="css/blog.css" />
+    <link rel="stylesheet" href="css/company.css" />
+    <link rel="stylesheet" href="css/recruit.css" />
+    <link rel="stylesheet" href="css/contact.css" />
+    <title>株式会社TECH</title>
+  </head>
+  <body>
+    <header>
+      <div class="header-fixed">
+        <a href="index.html" class="header-ttl">TECH</a>
+
+        <nav class="header-nav">
+          <ul class="header-nav-list">
+            <li class="header-nav-item"><a href="index.html">ホーム</a></li>
+            <li class="header-nav-item"><a href="service.html">事業内容</a></li>
+            <li class="header-nav-item"><a href="news.html">ニュース</a></li>
+            <li class="header-nav-item"><a href="blog.html">社員ブログ</a></li>
+            <li class="header-nav-item"><a href="company.html">会社概要</a></li>
+            <li class="header-nav-item"><a href="recruit.html">採用情報</a></li>
+            <li class="header-nav-item">
+              <a href="contact.html">お問い合わせ</a>
+            </li>
+          </ul>
+        </nav>
+
+        <div class="humburger-menu" id="humburger-menu">
+          <span class="humburger-menu__line--top"></span>
+          <span class="humburger-menu__line--middle"></span>
+          <span class="humburger-menu__line--bottom"></span>
+        </div>
+      </div>
+    </header>
+    <nav class="drawer-nav" id="drawer-nav">
+      <ul>
+        <li><a href="index.html">ホーム</a></li>
+        <li><a href="service.html">事業内容</a></li>
+        <li><a href="news.html">ニュース</a></li>
+        <li><a href="blog.html">社員ブログ</a></li>
+        <li><a href="company.html">会社概要</a></li>
+        <li><a href="recruit.html">採用情報</a></li>
+        <li><a href="contact.html">お問い合わせ</a></li>
+      </ul>
+    </nav>
+    <section class="serive-firstview">
+      <img src="img/mv.png" alt="" />
+      <h2 class="service-firstview-ttl">お問い合わせ</h2>
+    </section>
+    <main>
+      <section class="contact-form">
+        <form name="contact" method="post">
+          <div class="contact-form-item">
+            <label for="company-name">会社名</label>
+            <input type="text" name="company-name" id="company-name" />
+          </div>
+          <div class="contact-form-item">
+            <label for="user-name" class="user-name">お名前</label>
+            <input type="text" name="company-name" id="user-name" required />
+          </div>
+          <div class="contact-form-item">
+            <label for="mail-address" class="mail-address"
+              >メールアドレス</label
+            >
+            <input type="text" name="company-name" id="mail-address" required />
+          </div>
+          <div class="contact-form-item">
+            <label for="contact-content" class="contact-content"
+              >お問い合わせ内容</label
+            >
+            <textarea
+              name="contact-content"
+              id="contact-content"
+              cols="30"
+              rows="10"
+              required
+            ></textarea>
+          </div>
+          <input type="submit" class="formBtn" value="お申し込み" />
+        </form>
+      </section>
+    </main>
+    <footer>
+      <h1 class="footer-ttl">&copy;2020 TECH inc.</h1>
+      <nav class="footer-nav">
+        <ul class="footer-nav-list">
+          <li class="footer-nav-item"><a href="index.html">ホーム</a></li>
+          <li class="footer-nav-item"><a href="service.html">事業内容</a></li>
+          <li class="footer-nav-item"><a href="news.html">ニュース</a></li>
+          <li class="footer-nav-item"><a href="blog.html">社員ブログ</a></li>
+          <li class="footer-nav-item"><a href="company.html">会社概要</a></li>
+          <li class="footer-nav-item"><a href="recruit.html">採用情報</a></li>
+          <li class="footer-nav-item">
+            <a href="contact.html">お問い合わせ</a>
+          </li>
+        </ul>
+      </nav>
+    </footer>
+    <script src="js/main.js"></script>
+  </body>
+</html>

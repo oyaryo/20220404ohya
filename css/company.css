@@ -1,0 +1,16 @@
+.company-main {
+  padding: 50px 0;
+}
+.company-main table {
+  margin: 0 auto;
+  width: 85%;
+}
+.company-main tr {
+  border-top: 1px solid #000;
+}
+.company-main tr:last-of-type {
+  border-bottom: 1px solid #000;
+}
+.company-main th {
+  padding: 25px;
+}

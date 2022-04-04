@@ -1,0 +1,27 @@
+.recruit-content {
+  width: 80%;
+  margin: 50px auto;
+}
+.recruit-content-ttl {
+  font-size: 20px;
+  border-bottom: 1px solid #000;
+  line-height: 200%;
+}
+.recruit-content-text {
+  padding: 15px 0;
+}
+.recruit-content table {
+  width: 100%;
+  margin: 10px 0;
+}
+.recruit-content table tr {
+  border: 1px solid #000;
+}
+.recruit-content table th {
+  padding: 15px 0;
+  background-color: #eee;
+  border-right: 1px solid #000;
+}
+.recruit-content table td {
+  padding-left: 8px;
+}

@@ -1,0 +1,31 @@
+.contact-form {
+  display: block;
+  width: 90%;
+  margin: 0 auto;
+}
+.contact-form label {
+  display: block;
+  font-weight: bold;
+}
+.contact-form input {
+  width: 100%;
+}
+.contact-form textarea {
+  width: 100%;
+}
+.contact-form-item {
+  margin-top: 20px;
+}
+.user-name::after,
+.mail-address::after,
+.contact-content::after {
+  content: " *";
+  color: red;
+}
+.formBtn {
+  display: inline-block;
+  width: 300px;
+  background-color: #000;
+  color: #fff;
+  margin: 25px 0;
+}

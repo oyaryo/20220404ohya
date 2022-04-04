@@ -1,0 +1,46 @@
+.serive-firstview {
+  position: relative;
+}
+.serive-firstview img {
+  width:100%;
+  height: 200px;
+  object-fit: cover;
+  margin-top: 70px;
+}
+.service-firstview-ttl {
+  position: absolute;
+  color: #fff;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.service-card {
+  display: flex;
+  width: 100%;
+  margin-bottom: 0;
+}
+.service-card-img {
+  width: 30%;
+}
+.service-card-content {
+  width: 70%;
+  padding-bottom: 0;
+}
+.service-card-border {
+  width: 90%;
+  background-color: 1px solid #000;
+  margin: 10px auto;
+}
+
+@media screen and (max-width: 768px) {
+  .service-card {
+    flex: content;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 0;
+  }
+  .service-card-img {
+    width: auto;
+  }
+}
